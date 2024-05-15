@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(34, 37, 38);
+    display: flex;
+    justify-content: center;
+}
+.conteiner{
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgba(79, 112, 194, 0.328);
+    height: 15rem;
+    width: 80%;
+    
+}
+input{
+    margin: 10px 0 ;
+    background-color: rgb(39, 35, 35);
+    color: white;
+    height: 1.6rem; ;
+
+}
+.btn{
+    width: 2rem;
+    height: 2rem;
+    background-color: rgba(76, 90, 96, 0.685);
+    border-radius: 1000%;
+
+}

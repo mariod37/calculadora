@@ -6,22 +6,51 @@ body{
 .conteiner{
     text-align: center;
     margin-top: 20px;
-    background-color: rgba(79, 112, 194, 0.328);
-    height: 15rem;
+    background-color: rgba(36, 47, 76, 0.328);
+    height: 25rem;
     width: 80%;
+    border-radius: 8px;
+    
     
 }
 input{
-    margin: 10px 0 ;
-    background-color: rgb(39, 35, 35);
+    margin: 20px 0 ;
+    background-color: rgb(35, 32, 32);
     color: white;
-    height: 1.6rem; ;
+    height: 5rem; 
+    border-radius: 8px;
+    font-weight: 900;
+    font-style: italic;
+    font-size: large;
+    
 
 }
 .btn{
-    width: 2rem;
-    height: 2rem;
-    background-color: rgba(76, 90, 96, 0.685);
+    margin: 3px;
+    width: 3rem;
+    height: 3rem;
+    padding: 15px;
+    background-color: rgba(158, 218, 243, 0.685);
     border-radius: 1000%;
+    font-weight: 900;
+    
 
+}
+.displayDelete{
+    background-color: rgba(0, 72, 255, 0.798);
+    border-radius: 30%;
+    width: 4rem;
+    
+}
+.btn-resultado{
+    background-color: rgba(12, 224, 235, 0.944);
+    width: 4rem;
+    border-radius: 30%
+    
+}
+.btn-delete{
+    background-color: rgb(137, 234, 26);
+    width: 4rem;
+    border-radius: 30%
+    
 }

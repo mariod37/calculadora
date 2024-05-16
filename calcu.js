@@ -8,6 +8,7 @@ const borrar = document.querySelector('.btn-delete')
 let num1 = display.value
 let num2 = display.value
 
+
 // console.log(operador)
 
 for (let i = 0; i < numero.length; i++){
@@ -34,7 +35,7 @@ for (let i = 0; i < numero.length; i++){
 
     borrar.addEventListener('click', () =>{
             
-                return display.value -= display.value
+                return display.value = display.value.slice(0,-1)
 })
 
 

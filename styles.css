@@ -30,7 +30,7 @@ input{
     width: 3rem;
     height: 3rem;
     padding: 15px;
-    background-color: rgba(158, 218, 243, 0.685);
+    background-color: rgba(152, 218, 246, 0.99);
     border-radius: 1000%;
     font-weight: 900;
     
@@ -49,7 +49,7 @@ input{
     
 }
 .btn-delete{
-    background-color: rgb(137, 234, 26);
+    background-color: rgb(26, 227, 234);
     width: 4rem;
     border-radius: 30%
     

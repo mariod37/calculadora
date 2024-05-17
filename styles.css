@@ -6,9 +6,9 @@ body{
 .conteiner{
     text-align: center;
     margin-top: 20px;
-    background-color: rgba(36, 47, 76, 0.328);
-    height: 25rem;
-    width: 80%;
+    background-color: rgba(66, 67, 70, 0.072);
+    height: 35rem;
+    width: 40%;
     border-radius: 8px;
     
     
@@ -21,36 +21,42 @@ input{
     border-radius: 8px;
     font-weight: 900;
     font-style: italic;
-    font-size: large;
+
     
 
 }
 .btn{
     margin: 3px;
-    width: 3rem;
-    height: 3rem;
+    width: 3.5rem;
+    height: 3.5rem;
     padding: 15px;
     background-color: rgba(152, 218, 246, 0.99);
     border-radius: 1000%;
     font-weight: 900;
+    font-size: x-large;
+    box-shadow: 4px -2px teal;
     
 
 }
 .displayDelete{
     background-color: rgba(0, 72, 255, 0.798);
     border-radius: 30%;
-    width: 4rem;
+    width: 5rem;
     
 }
 .btn-resultado{
     background-color: rgba(12, 224, 235, 0.944);
-    width: 4rem;
+    width: 5rem;
     border-radius: 30%
     
 }
 .btn-delete{
     background-color: rgb(26, 227, 234);
-    width: 4rem;
+    width: 5rem;
     border-radius: 30%
     
+}
+#operador{
+    /* font-size: x-large;S */
+    /* padding: 1rem; */
 }

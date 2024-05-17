@@ -5,6 +5,8 @@ const resultado = document.querySelector('.btn-resultado')
 const numero    = document.querySelectorAll('.btn-numero')
 const conteiner = document.querySelector('.conteiner')
 const borrar = document.querySelector('.btn-delete')
+const porcentaje = document.querySelector('#porcentaje');
+console.log(porcentaje.value)
 let num1 = display.value
 let num2 = display.value
 
@@ -17,6 +19,8 @@ for (let i = 0; i < numero.length; i++){
     display.value+=numero[i].value
     })
 }
+
+
     conteiner.addEventListener('click',(e) =>{
             if (e.target && e.target.id === 'operador'){
             display.value += e.target.value

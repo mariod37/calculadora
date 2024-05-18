@@ -8,19 +8,22 @@ body{
     margin-top: 20px;
     background-color: rgba(66, 67, 70, 0.072);
     height: 35rem;
-    width: 40%;
-    border-radius: 8px;
+    width: 60%;
+    border-radius: 8px;padding: 3rem;
+    
     
     
 }
 input{
-    margin: 20px 0 ;
+    margin: 25px 0 ;
     background-color: rgb(35, 32, 32);
     color: white;
+    width: 15rem;
     height: 5rem; 
     border-radius: 8px;
     font-weight: 900;
     font-style: italic;
+    font-size: xx-large;
 
     
 
@@ -29,7 +32,7 @@ input{
     margin: 3px;
     width: 3.5rem;
     height: 3.5rem;
-    padding: 15px;
+    padding: 5px;
     background-color: rgba(152, 218, 246, 0.99);
     border-radius: 1000%;
     font-weight: 900;
@@ -56,3 +59,61 @@ input{
     border-radius: 30%
     
 }
+ @media (max-width: 468px){
+    .conteiner{
+        text-align: center;
+        margin-top: 20px;
+        background-color: rgba(66, 67, 70, 0.072);
+        height: 35rem;
+        width: 90%;
+        border-radius: 8px;padding: 3rem;
+        
+        
+        
+    }
+    input{
+        margin: 25px 0 ;
+        background-color: rgb(35, 32, 32);
+        color: white;
+        width: 10rem;
+        height: 5rem; 
+        border-radius: 8px;
+        font-weight: 900;
+        font-style: italic;
+        font-size: xx-large;
+    
+        
+    
+    }
+    .btn{
+        margin: 3px;
+        width: 2rem;
+        height: 3rem;
+        padding: 5px;
+        background-color: rgba(152, 218, 246, 0.99);
+        border-radius: 1000%;
+        font-weight: 900;
+        font-size: x-large;
+        box-shadow: 4px -2px teal;
+        
+    
+    }
+    .displayDelete{
+        background-color: rgba(0, 72, 255, 0.798);
+        border-radius: 30%;
+        width: 3rem;
+        
+    }
+    .btn-resultado{
+        background-color: rgba(12, 224, 235, 0.944);
+        width: 3rem;
+        border-radius: 30%
+        
+    }
+    .btn-delete{
+        background-color: rgb(26, 227, 234);
+        width: 3rem;
+        border-radius: 30%
+        
+    }
+  }

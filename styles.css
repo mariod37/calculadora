@@ -71,19 +71,26 @@ input{
         
         
     }
+    .background{
+        background-color: rgb(35, 32, 32);
+        height: 6rem;
+        margin-bottom: 10px;
+    }
+    .display2{
+        
+        border-style: none;
+    }
     input{
-        margin: 25px 0 ;
+        border-style: none;
+        margin-bottom: 20px;
         background-color: rgb(35, 32, 32);
         color: white;
         width: 10rem;
-        height: 5rem; 
+        height: 2rem; 
         border-radius: 8px;
         font-weight: 900;
         font-style: italic;
         font-size: xx-large;
-    
-        
-    
     }
     .btn{
         margin: 3px;

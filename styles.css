@@ -65,7 +65,7 @@ input{
         margin-top: 20px;
         background-color: rgba(66, 67, 70, 0.072);
         height: 35rem;
-        width: 90%;
+        width: 100%;
         border-radius: 8px;padding: 3rem;
         
         
@@ -85,8 +85,13 @@ input{
         margin-bottom: 20px;
         background-color: rgb(35, 32, 32);
         color: white;
+
         width: 10rem;
         height: 2rem; 
+
+        width: 15rem;
+        height: 5rem; 
+
         border-radius: 8px;
         font-weight: 900;
         font-style: italic;
@@ -94,8 +99,8 @@ input{
     }
     .btn{
         margin: 3px;
-        width: 2rem;
-        height: 3rem;
+        width: 4rem;
+        height: 4.5rem;
         padding: 5px;
         background-color: rgba(152, 218, 246, 0.99);
         border-radius: 1000%;
@@ -108,18 +113,18 @@ input{
     .displayDelete{
         background-color: rgba(0, 72, 255, 0.798);
         border-radius: 30%;
-        width: 3rem;
+        width: 5rem;
         
     }
     .btn-resultado{
         background-color: rgba(12, 224, 235, 0.944);
-        width: 3rem;
+        width: 5rem;
         border-radius: 30%
         
     }
     .btn-delete{
         background-color: rgb(26, 227, 234);
-        width: 3rem;
+        width: 5rem;
         border-radius: 30%
         
     }

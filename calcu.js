@@ -41,17 +41,23 @@ displayDelete.addEventListener("click", () => {
 borrar.addEventListener("click", () => {
   return (display1.value = display1.value.slice(0, -1));
 });
-
+let esPorcentaje = false;
 porcentaje.addEventListener("click", () => {
   valor1 = display1.value;
   display1.value = "";
   console.log(valor1);
+  esPorcentaje = true
 });
 
 resultado.addEventListener("click", (opera) => {
  valor2 = display1.value
+  if(esPorcentaje){
   opera = eval((valor1 * valor2) / 100);
+  }
+  else{
+    opera = eval(valor2)
   console.log(eval(valor2));
   display1.value = opera;
-  
+    esPorcentaje = false;
+  }
 })

@@ -116,7 +116,7 @@ input {
     margin: 25px 0 25px 0;
     background-color: rgb(35, 32, 32);
     color: white;
-    width: 16rem;
+    width: 20rem;
     height: 6rem;
     border-radius: 8px;
     font-weight: 900;
@@ -125,8 +125,8 @@ input {
   }
   .boton {
     margin: 6px;
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 5.5rem;
+    height: 5.5rem;
     /* padding: 15px; */
     background-color: rgba(152, 218, 246, 0.99);
     border-radius: 1000%;

@@ -1,46 +1,66 @@
-
-         <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculadora</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="conteiner" >
+    </div>
+    <video autoplay muted loop>
+        <source src="video/4490626-uhd_3840_2160_25fps.mp4">
 
-        <input type="text"><br>
-    <button value="1" class="btn btn-numero">1</button>
-    <button value="2" class="btn btn-numero">2</button>
-    <button value="3" class="btn btn-numero">3</button>
-    <button value="%"class='btn' id='porcentaje'>%</button>
-    <br>
-    <button value="4" class="btn btn-numero">4</button>
-    <button value="5" class="btn btn-numero">5</button>
-    <button value="6" class="btn btn-numero">6</button>
-    <button value="/" class="btn" id="operador">/</button>
-    <br>
-    <button value="7" class="btn btn-numero">7</button>
-    <button value="8" class="btn btn-numero">8</button>
-    <button value="9" class="btn btn-numero">9</button>
-    <button class="btn" id="operador" value="+">+</button>
-    <br>
-    <button value="." class="btn" id="operador">.</button>
+    </video>
+   
+
+            <div class="conteiner">
+                <!-- <div>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Menu</option>
+                        <option class="historial" >Historial</option>
+                        <!-- <option value="2">Two</option>
+                         <option value="3">Three</option>  
+                      </select>
+                    </div> -->
+                <div class="historial">
+                    <button>Historial</button>
+                </div>
+                    <input type="text" /><br>
+                <button value="1" class="boton boton-numero">1</button>
+                <button value="2" class="boton boton-numero">2</button>
+                <button value="3" class="boton boton-numero">3</button>
+                <button value="%" class="boton"id="porcentaje">%</button>
+                <br>
+                <button value="4" class="boton boton-numero">4</button>
+                <button value="5" class="boton boton-numero">5</button>
+                <button value="6" class="boton boton-numero">6</button>
+                <button value="/" class="boton" id="operador">/</button>
+                <br>
+                <button value="7" class="boton boton-numero">7</button>
+                <button value="8" class="boton boton-numero">8</button>
+                <button value="9" class="boton boton-numero">9</button>
+                <button class="boton" id="operador" value="+">+</button>
+                <br>
+                <button value="." class="boton" id="operador">.</button>
+                <button value="0" class="boton boton-numero">0</button>
+                <button value="*" class="boton" id="operador">*</button>
+                <button value="-" class="boton" id="operador">-</button>
+                <br />
+                <button value="" class="boton boton-delete">Del</button>
+                <button class="boton displayDelete">AC</button>
+                <button class="boton boton-resultado">=</button>
+          
+              </div>
+       
     
-    <button value="0" class="btn btn-numero">0</button>
-    <button value="*"class='btn' id="operador" >*</button>
-    <button value="-"class='btn' id="operador">-</button><br>
-     <button value=""class='btn btn-delete'>Del</button> 
-    <button class="btn displayDelete">AC</button>
-    <button class="btn btn-resultado">=</button>    
 
+    
 
-</div>
-
-<script src="calcu.js"></script>
-</body>
+    <script src="calcu.js"></script>
+  </body>
 </html>
  

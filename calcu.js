@@ -78,7 +78,7 @@ conteiner.addEventListener("click", (e) => {
     ) {
       display1.value += e.target.value;
     }
-  datos = display1.value 
+  datos = e.target.value; 
   localSto.setItem("operacion", datos );
   
   valorHistorial.push(localSto.operacion);
